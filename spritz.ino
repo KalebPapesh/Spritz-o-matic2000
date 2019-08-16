@@ -1,10 +1,12 @@
-/*PIR Cat sprayer Peter Quinn 2018
+/*PIR Cat sprayer. 
+Original code by Peter Quinn 2018 
+Altered by Kaleb Papesh
   detect cat
   yes, there is a cat
-     wait 15 sec. Is it still there?
+     wait 1 sec. Is it still there?
         Yes, squirt it
         No, do nothing
-  wait 15 sec
+  wait 11 sec
   end of loop
   squirt it
   fire squirter twice
@@ -52,7 +54,7 @@ void loop() {
    Serial.println(" sec");
    digitalWrite(ledPin,HIGH);
    digitalWrite(pirPin, LOW);
-   delay(10000); //wait 15 sec to see if it's still there
+   delay(10000); //wait 1 sec to see if it's still there
    if (digitalRead(pirPin) == HIGH) {//still high. time to squirt
      Serial.println("still there");
      squirt_it();
@@ -66,9 +68,9 @@ void squirt_it() {
    myservo.write(180);              
    Serial.println(180);
    digitalWrite(ledPin,HIGH);
-   delay(1000);                       // waits 15ms for the servo to reach the position
+   delay(1000);                       // waits 1s for the servo to reach the position
    myservo.write(0);
    Serial.println(0);
    digitalWrite(ledPin,LOW);
-   delay(1000);                       // waits 15ms for the servo to reach the position
+   delay(1000);                       // waits 1s for the servo to reach the position
 }
