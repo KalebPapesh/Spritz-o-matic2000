@@ -1,6 +1,6 @@
 /*PIR Cat sprayer. 
 Original code by Peter Quinn 2018 
-Altered by Kaleb Papesh
+Altered by Kaleb Papesh 2018
   detect cat
   yes, there is a cat
      wait 1 sec. Is it still there?
