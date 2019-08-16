@@ -23,16 +23,13 @@ Motion sensing water sprayer. This has a multitude of uses but it's main purpose
    3. securely tie it to the movable servo head
 4. Connect the **PIR sensor** to the front of the water bottle with **tape**  
   **_Note: Do not cover the PIR sensor with tape, use tape around the edges_**
-5. Connect the **PIR sensor** to the arduino using pins:  
+5. Connect the **PIR sensor** to the arduino using:  
     ```bash
-    pin 4 
-    pin 5
-    pin 6
+   pin 5
     ```
-6. Connect the **Servo** to the ardunio using pins:   
+6. Connect the **Servo** to the ardunio using:   
    ```bash
-   pin 8
-   pin 9
+   pin 13
    ```
 7. Connect the power source to the **Arduino**
 8. Enjoy an cat free countertop!
