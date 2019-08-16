@@ -6,7 +6,7 @@ Altered by Kaleb Papesh 2018
      wait 1 sec. Is it still there?
         Yes, squirt it
         No, do nothing
-  wait 11 sec
+  wait 10 sec
   end of loop
   squirt it
   fire squirter twice
@@ -54,7 +54,7 @@ void loop() {
    Serial.println(" sec");
    digitalWrite(ledPin,HIGH);
    digitalWrite(pirPin, LOW);
-   delay(10000); //wait 1 sec to see if it's still there
+   delay(10000); //wait 10 sec to see if it's still there
    if (digitalRead(pirPin) == HIGH) {//still high. time to squirt
      Serial.println("still there");
      squirt_it();
