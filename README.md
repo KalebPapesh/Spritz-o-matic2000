@@ -15,7 +15,7 @@ Motion sensing water sprayer. This has a multitude of uses but it's main purpose
 # Instructions
 1. Flash the **Arduino** (or ARM powered device) with _spritz.ino_
 2. Attach the **servo** to the **water bottle**  
-   This is done by looping the **adjustable metal clamp** around the **servo** and the **water bottle** and tighten
+   This is done by looping the **adjustable metal clamp** around the **servo** and the **water bottle** and tighten  
    **_Note: Do not place the adjustable clamp around the trigger! It should go behind or below the trigger._**
 3. Using **picture wire**:  
    1. securely tie one end of it to the part of the servo motor that doesn't move
